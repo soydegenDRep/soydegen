@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "soydegen",
+    "motivations": "\nI want to be a DRep because I am deeply committed to the growth and long-term success of the Cardano ecosystem. My journey in both personal and professional spheres has instilled in me a passion for building resilient, sustainable communities, and I believe that Cardano has the potential to revolutionize the blockchain space.\n\nPersonal Experiences: I have always been driven by a desire to contribute meaningfully to the communities I am part of. This drive led me to spearhead numerous initiatives in the nonprofit sector, where I’ve learned the importance of strategic planning, resource management, and collaboration. T\n\nProfessional Experiences: In my professional life, I have been involved in managing and growing complex systems, whether through enhancing liquidity in financial ecosystems or improving operational efficiency. My work",
+    "objectives": "Been holding CARDANO since 2019. I'm not here to only make money but to grown the ecosystem, and change the world , soydegen join me.\n\nAs a DRep in the Cardano ecosystem, I believe in fostering a vibrant and sustainable blockchain community by prioritizing three key areas:\n\nBoosting Liquidity: A strong and liquid ecosystem is essential for the growth and stability of Cardano. By increasing liquidity, we can ensure that the network remains attractive to new users and investors, driving adoption and fostering innovation.\n\nEnhancing Performance/Capacity: I aim to accelerate the deployment of Input Endorsers to improve the network’s performance and scalability. This will enable Cardano to handle more transactions and support a growing number of decentralized applications, ensuring that the network remains competitive and efficient.\n\nStrategic Treasury Management: Responsible and strategic management of the Cardano Treasury is crucial for long-term economic viability. \n\n\n\n\n\n\n\n\n",
+    "paymentAddress": "addr_test1qrm7kz2mypau8rw2cahhkghxmhrljf3s3cw75quszwd4zz02aj3vqw0nmdqyssqpahdxs9hc2n5u67r72vfxuv7ww2pqdmkujh",
+    "qualifications": "Strategic Treasury Management:\n\nProven track record in raising and managing significant funds, ensuring that resources are allocated effectively to maximize impact. My experience in financial stewardship is crucial for the responsible management of Cardano's Treasury.\nExperience in Boosting Ecosystem Liquidity:\n\nDeep understanding of financial ecosystems and experience in implementing strategies to enhance liquidity. This expertise is essential for promoting a healthy and vibrant Cardano ecosystem.\nProject and Operations Management:\n\nDemonstrated ability to improve performance and capacity through efficient project management. My experience in accelerating the deployment of key initiatives aligns with the need to enhance Cardano’s network capabilities, particularly through Input Endorsers.\nCommunity Engagement and Advocacy:\n\nStrong background in community building and advocacy, ensuring that all voices are heard and considered in decision-making processes. ",
+    "references": [
+      {
+        "@type": "Identity",
+        "label": "soydegen",
+        "uri": "https://x.com/SoyDegen"
+      }
+    ]
+  }
+}
